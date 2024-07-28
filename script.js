@@ -1,0 +1,11 @@
+const user = "bojan";
+const domain = "bojanmilevski.com";
+const emailAddress = user + "@" + domain;
+const emailDiv = document.getElementById("email");
+const anchor = document.createElement("a");
+const icon = document.createElement("i");
+anchor.href = "mailto:" + emailAddress;
+icon.className = "nf nf-cod-mail";
+icon.id = "icons";
+anchor.appendChild(icon);
+emailDiv.appendChild(anchor);

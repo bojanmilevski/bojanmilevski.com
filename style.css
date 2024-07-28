@@ -1,0 +1,44 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
+body {
+	background-image: url('public/background.jpg');
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 2.5%;
+	margin-top: 2.5%;
+}
+
+div {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin: 5px;
+}
+
+h1,
+p {
+	font-family: "JetBrains Mono";
+}
+
+#icons {
+	font-size: 40px;
+	margin: 5px;
+}
+
+#text,
+#icons {
+	color: white;
+	mix-blend-mode: difference;
+}
+
+@media screen and (max-width: 428px) {
+	body {
+		margin-bottom: 10%;
+		margin-top: 10%;
+	}
+
+	#icons {
+		font-size: 15px;
+		margin: 5px;
+	}
+}
