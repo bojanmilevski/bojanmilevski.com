@@ -9,36 +9,43 @@ body {
 }
 
 div {
-	align-items: center;
+	margin: 10px;
+}
+
+#icons,
+#music {
 	display: flex;
 	justify-content: center;
-	margin: 5px;
+	align-items: center;
 }
 
-h1,
-p {
-	font-family: "JetBrains Mono";
-}
-
-#icons {
-	font-size: 40px;
-	margin: 5px;
+#music {
+	flex-direction: column;
 }
 
 #text,
-#icons {
+#icon {
 	color: white;
 	mix-blend-mode: difference;
 }
 
+#text {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+#icon {
+	font-size: 40px;
+}
+
 @media screen and (max-width: 428px) {
 	body {
-		margin-bottom: 10%;
-		margin-top: 10%;
+		margin-bottom: 5%;
+		margin-top: 5%;
 	}
 
-	#icons {
+	#icon {
 		font-size: 15px;
-		margin: 5px;
 	}
 }
