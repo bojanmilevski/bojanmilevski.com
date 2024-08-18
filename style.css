@@ -12,23 +12,6 @@ div {
 	margin: 10px;
 }
 
-#icons,
-#music {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-#music {
-	flex-direction: column;
-}
-
-#text,
-#icon {
-	color: white;
-	mix-blend-mode: difference;
-}
-
 #text {
 	max-width: 500px;
 	margin: 0 auto;
@@ -39,12 +22,31 @@ div {
 	font-size: 40px;
 }
 
-@media screen and (max-width: 428px) {
-	body {
-		margin-bottom: 5%;
-		margin-top: 5%;
-	}
+#movies,
+#music {
+	flex-direction: column;
+}
 
+#videoCard {
+	width: 100%;
+	height: 100%;
+}
+
+#text,
+#icon {
+	color: white;
+	mix-blend-mode: difference;
+}
+
+#icons,
+#movies,
+#music {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (max-width: 428px) {
 	#icon {
 		font-size: 15px;
 	}
