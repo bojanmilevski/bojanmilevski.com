@@ -15,7 +15,7 @@ div {
 #text {
 	max-width: 500px;
 	margin: 0 auto;
-	text-align: justify;
+	text-align: center;
 }
 
 #icon {
@@ -46,7 +46,7 @@ div {
 	align-items: center;
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 640px) {
 	#icon {
 		font-size: 15px;
 	}
