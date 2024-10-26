@@ -1,0 +1,9 @@
+name: bojanmilevski.com
+services:
+  bojanmilevski.com:
+    container_name: bojanmilevski.com
+    build: .
+    restart: unless-stopped
+    tty: true
+    ports:
+      - 8080:443
