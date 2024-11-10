@@ -11,5 +11,3 @@ COPY style.css .
 COPY script.js .
 COPY robots.txt .
 COPY public public
-
-EXPOSE 443
