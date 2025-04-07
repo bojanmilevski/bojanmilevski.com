@@ -1,3 +1,3 @@
 # BOJANMILEVSKI.COM
 
-My personal website.
+Personal website built using plain HTML.

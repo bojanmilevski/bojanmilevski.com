@@ -58,16 +58,9 @@ const generate = (div, array) => {
 
 generate("icons", [
   new Icon(getEmailLink(), "cod-mail"),
-  new Icon("https://github.com/bojanmilevski", "md-github"),
   new Icon("https://linkedin.com/in/bojan-milevski-b81842283", "md-linkedin"),
-  new Icon("https://facebook.com/bojanmilevskii", "fa-facebook_square"),
-  new Icon("https://instagram.com/bojanmilevskii", "md-instagram"),
-  new Icon("https://x.com/bojanmilevskii", "fa-twitter_square"),
-  new Icon("https://reddit.com/user/bojanmilevskii", "md-reddit"),
-  new Icon("https://discord.com/users/1085313022999928892", "fa-discord"),
-  new Icon("https://youtube.com/@bojanmilevski", "md-youtube"),
-  new Icon("https://odysee.com/@bojanmilevski", "fa-user_astronaut"),
-  new Icon("https://open.spotify.com/user/31uf7k245w4wmow4thq7z3dvzdaq?si=797e99aca7d74f82", "md-spotify"),
+  new Icon("https://github.com/bojanmilevski", "md-github"),
+  new Icon("https://gitlab.com/bojanmilevski", "md-gitlab"),
 ]);
 
 generate("movies", [
