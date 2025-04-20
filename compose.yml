@@ -1,9 +1,0 @@
-version: "3"
-
-services:
-  bojanmilevski.com:
-    container_name: bojanmilevski.com
-    build: .
-    restart: always
-    ports:
-      - 80:80

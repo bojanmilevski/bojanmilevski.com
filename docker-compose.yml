@@ -1,0 +1,12 @@
+services:
+  website:
+    build: .
+    hostname: website
+    container_name: website
+    restart: always
+    env_file: website.env
+    ports:
+      - 80:80
+    volumes:
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
