@@ -1,7 +1,7 @@
 @import "https://www.nerdfonts.com/assets/css/webfont.css";
 
 body {
-	background-image: url('public/background.jpg');
+	background-image: url('../public/background.jpg');
 	background-position: center center;
 	background-size: cover;
 	margin-bottom: 2.5%;
