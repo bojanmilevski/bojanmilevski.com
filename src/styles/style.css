@@ -1,15 +1,11 @@
 @import "https://www.nerdfonts.com/assets/css/webfont.css";
 
 body {
-	background-image: url('../public/background.jpg');
+	background-image: url('background.jpg');
 	background-position: center center;
 	background-size: cover;
 	margin-bottom: 2.5%;
 	margin-top: 2.5%;
-}
-
-div {
-	margin: 10px;
 }
 
 #text {
@@ -22,9 +18,10 @@ div {
 	font-size: 40px;
 }
 
-#movies,
+#videos,
 #music {
 	flex-direction: column;
+  gap: 20px;
 }
 
 #videoCard {
@@ -36,10 +33,11 @@ div {
 #icon {
 	color: white;
 	mix-blend-mode: difference;
+  padding: 20px;
 }
 
-#icons,
-#movies,
+nav,
+#videos,
 #music {
 	display: flex;
 	justify-content: center;

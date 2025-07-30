@@ -1,0 +1,21 @@
+---
+import Video from './Video.astro';
+
+interface Props {
+  title: string,
+  slugs: Array<string>,
+};
+
+const { title, slugs } = Astro.props;
+---
+
+<h1 id="text">{title}</h1>
+<div id="videos">
+  {
+    slugs.map(slug => (
+      <div>
+        <Video src={slug} />
+      </div>
+    ))
+  }
+</div>

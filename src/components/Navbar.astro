@@ -1,0 +1,17 @@
+---
+const items = {
+  'nf nf-cod-mail': 'mailto:bojan@bojanmilevski.com',
+  'nf nf-md-linkedin': 'https://linkedin.com/in/bojan-milevski-b81842283',
+  'nf nf-md-github': 'https://github.com/bojanmilevski',
+};
+
+const entries = Object.entries(items);
+---
+
+<nav>
+  {
+    entries.map(([icon, url]) => (
+      <a href={url}><i class={icon} id="icon"></i></a>
+    ))
+  }
+</nav>

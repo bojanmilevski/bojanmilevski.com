@@ -1,3 +1,3 @@
 # BOJANMILEVSKI.COM
 
-Personal website built using plain HTML.
+Personal website built using Astro.
