@@ -1,15 +1,11 @@
-FROM node:slim AS builder
+FROM node:22.21-slim AS builder
 
 WORKDIR /app
-COPY src ./src
-COPY public ./public
-COPY astro.config.mjs .
-COPY package.json .
-RUN corepack enable
-RUN pnpm install
-RUN pnpm build
+COPY . .
+RUN npm install
+RUN npm run build
 
-FROM nginx:alpine
+FROM nginx:mainline-alpine3.22-slim
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 RUN rm -rf /usr/share/nginx/html/*
